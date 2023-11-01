@@ -6,7 +6,7 @@ app = FastAPI()
 fake = Faker()
 
 @app.get("/generate_users")
-def generate_users(count: int = 1000):
+def generate_users(count: int = 1100):
     users = []
     for _ in range(count):
         user = {
