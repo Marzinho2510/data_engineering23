@@ -2,10 +2,10 @@ import csv
 import random
 from faker import Faker
 
-#create 10,000 records of random data
+#create 11,000 records of random data
 data = []
 fake = Faker()
-for _ in range(10000):
+for _ in range(11000):
     user = {
         'Name': fake.name(),
         'Age': random.randint(0, 105),
